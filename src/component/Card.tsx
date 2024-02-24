@@ -3,7 +3,7 @@ const Card: FC<{ title: string; name: string, bgColor: string; textColor: string
   ({ title, name, bgColor, textColor, img, children }) => {
 
     return <>
-      <li className="w-[853px] min-h-[408px] list-none flex mt-10 max-sm:w-[300px]  max-sm:flex-col max-sm:min-h-[408px] " style={{ backgroundColor: bgColor }}>
+      <li className="w-[853px] min-h-[420px] list-none flex mt-10 max-sm:w-[300px]  max-sm:flex-col max-sm:min-h-[420px] " style={{ backgroundColor: bgColor }}>
         <div className="flex items-center justify-center w-6/12 max-sm:w-full ">
           <div className="w-[321px] h-[306px] max-sm:w-[200px] max-sm:h-[250px] flex justify-center items-center"><img src={img} alt="" /></div>
         </div>
