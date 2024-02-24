@@ -10,7 +10,7 @@ function Wishsection() {
         <div className="w-[349px] h-[314px] rounded max-sm:w-[225px] max-sm:h-[250px] bg-cover" style={{ backgroundImage: `url("/DSC03921.JPG")` }}></div>
         <h1 className="font-mukta text-white text-8xl font-bold m-5 max-sm:text-4xl"><Typewriter
             options={{
-                strings: ['<span style="color: #29E7CD;">Rupa </span>', ' <span style="color: #F0F0C9;">Mommy</span>', '<span style="color: #D4F5F5;">Momma</span>'],
+                strings: ['<span style="color: #29E7CD;">Rupa </span>', ' <span style="color: #F0F0C9;">Congrats on 40!</span>'],
                 delay: 200,
                 autoStart: true,
                 loop: true,
